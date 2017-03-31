@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*html*/
+html{
+	background-color: snow;
+}
+/*container*/
+#container{
+	/*applying border*/
+	border: 2px solid grey;
+	position: relative;
+	left: 3%;
+	margin-top: 4%;
+	margin-right: 38%;
+	/*flex box setup*/
+	display: flex;
+	flex-direction: column;
+}
+/*header*/
+h1{
+	/*selcting font*/
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	text-transform: lowercase;
+	letter-spacing: -2px;
+	font-size: 5.2em;
+	/* positioning*/
+	position: relative;
+	margin-top: -18px;
+}
+h1 > em {
+	/*coloring and restting emphasised word*/
+	color: #B22222;
+	font-style: normal;
+}
+header > p{
+	/*postioning above the border*/
+	position: absolute;
+	margin-top: -18%;
+	left: 0;
+	/*transforming text*/
+	text-transform: uppercase;
+	font-weight: bold;
+}
+header > img {
+	/*sizing and postioning image*/
+	position: absolute;
+	width: 26%;
+	left: 74%;
+	margin-top: -16%;
+}
+/*main*/
+main > img {
+	width: 40%;
+	height: 40%;
+	position: relative;
+	order: 3;
+}
+/*article*/
+#dogDay{
+	/*setting fonts*/
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	order: 2;
+	line-height: 130%;
+	padding-bottom: 4%;
+}
+#slopes{
+	/*setting fonts*/
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	order: 4;
+	margin-top: -5%;
+	line-height: 125%;
+}
+/*aside*/
+aside{
+	/*positioning  and fonts*/
+	order: 1;
+	margin-right: 72%;
+	padding-left: 3%;
+	padding-right: 1%;
+	font-size: 20px;
+	line-height: 150%;
+}
+aside > h2 {
+	color: #B22222;
+	font-size: 1em;
+}
+#locationBox {
+	background-color: #e6e6e6;
+	padding-top: 2%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	padding-bottom: 4%;
+}
+#eventBox {
+	border-right: 1px solid grey;
+	font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+	margin-top: -117%;
+}
+li {
+	list-style-image: url("../images/plus.png");
+	font-size: 14px;
+}
+ul {
+	margin-left: -9%;
+}
+h3{
+	font-size: 14px;
+}
+#sleddingImg{
+	margin-left: 33%;
+	width: 65%;
+}
+/*article*/
+article{
+	margin-left: 33%;
+}
+#dogDayh2{
+	color: #B22222;
+}
+#slopesH2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: lighter;
+	font-size: 54px;
+	padding: 0;
+	margin-top: 0;
+}
+/*footer*/
+footer{
+	position: absolute;
+	margin-top: 150%;
+}
+/*bolding all em*/
+em{
+	font-style: normal;
+	font-weight: bold;
+}
+/*setting up styles for all links*/
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
